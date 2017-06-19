@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from scipy import hstack
-from blaze.expr.reductions import min
+#from blaze.expr.reductions import min
 from sklearn.feature_extraction.text import TfidfVectorizer
 def readFile(fileName):
     allData = []
